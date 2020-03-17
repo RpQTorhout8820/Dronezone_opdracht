@@ -1,0 +1,243 @@
+
+//  font-family: 'proxima_nova_altlight';
+//  font-family: 'proxima_novabold';
+//  font-family: 'proxima_novaregular';
+
+
+body{
+  font-family: 'proxima_novaregular';
+  font-size: 1rem;
+  padding: 0px;
+  //margin: -15px;
+  counter-reset: my-awesome-counter;
+  a:href{text-decoration: none;
+  }
+ 
+}
+.container-fluid{
+  padding: 0;
+  margin: 0;
+
+}
+
+.hfoto{
+
+  height: 1081px;
+  background:  url('../img/background.png'), linear-gradient(to left, 	rgba(224, 105, 0, .9), rgba(199, 0, 46, .9));
+  padding: 0;
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+ 
+
+  span{
+    font-family: 'proxima_novabold';
+  }
+
+
+}
+
+.event{
+  margin-top: 150px;
+  h1 {
+    font-size: 3rem;
+    font-family: 'proxima_novabold';
+  }
+  p{
+    font-size: 1.1rem;
+    color:rgba(199, 0, 46, .5);
+  }
+  .knoppen{
+    padding-top: 55px;
+  }
+
+  .btn-primary-outline {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 205px;
+
+  }
+
+  .btn-light{
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 205px;
+    color:rgba(199, 0, 46, .9);
+  }
+
+
+}
+
+
+
+.navbar-brand{
+  font-size: 2.25rem;
+  font-family: 'proxima_nova_altlight';
+}
+
+
+.part2{
+  padding-top: 122px;
+  text-align: center;
+
+
+  .fig{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  h2{
+    font-size: 1.8rem;
+
+    background: -webkit-linear-gradient( #cc3333, #ff9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'proxima_nova_altlight';
+  }
+  h2b{
+    font-size: 1.8rem;
+    display: block;
+    background: -webkit-linear-gradient( #cc3333, #ff9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'proxima_novabold';
+  }
+
+}
+
+.btn-price{
+  width: 200px;
+  height: 55px;
+  border: 0;
+  font-size: 1.2rem;
+  background-color: #264699;
+  margin-bottom: 100px;
+}
+.bg-gray{
+  background-color: #f6f6f6;
+}
+
+.nature{
+  background: url("../img/drone3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 118px;
+  h2{
+  background-color : #0c5460;
+    padding: 118px 0 0;
+    font-size: 1.8rem;
+    display: block;
+    background: -webkit-linear-gradient( #cc3333, #ff9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'proxima_novabold';
+  }
+  p{
+    margin-top: 38px;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+
+  }
+.sub-nature{
+  color: #e5e7f0;
+  vertical-align: top;
+
+  ol{
+    list-style: none;
+    min-height: 3rem;
+
+  }
+  ol li::before {
+    font-family: 'proxima_nova_altlight';
+    counter-increment: my-awesome-counter;
+    content: counter(my-awesome-counter);
+    color: #b4bac9;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 3rem;
+   text-align: center;
+    margin-left: -2.9rem;
+    margin-top: 13px;
+     }
+
+    li {
+      position: relative;
+      margin-top: 47px;
+      background: url(../img/circle.png) left 6px no-repeat;
+      padding-left: 65px;
+    }
+
+
+
+  }
+
+
+}
+
+.nature2{
+
+  h2{
+    font-size: 1.8rem;
+    display: block;
+    background: -webkit-linear-gradient( #cc3333, #ff9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'proxima_novabold';
+  }
+  p{
+    line-height: 1.8rem;
+    color: #cecfd3;
+  }
+}
+
+//Newletter part:
+
+.newsletter{
+ height: 500px;
+  background: linear-gradient(to left, 	rgba(224, 105, 0, .7), rgba(199, 0, 46, .7)),  url('../img/newsletterbg.png');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  h2{
+    font-family: 'proxima_novabold';
+    font-size: 3rem;
+    color: rgb(250, 250 , 250)
+  }
+  .btn-1{
+    background-color: rgba(250, 250 , 250, .15);
+    color:  rgba(250, 250 , 250, .5);
+    border: 1px solid white;
+    height: 60px;
+    width: 400px;
+
+  }
+
+  .btn-2{
+    margin-left: -100px;
+    height: 60px;
+    width: 35px;
+    border: 1px solid white;
+
+  }
+
+  ::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+}
